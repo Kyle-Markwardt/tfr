@@ -17,9 +17,13 @@ The initial analysis uses IPUMS microdata to compute average values of `NCHILD` 
 - Compares weighted vs. unweighted fertility estimates
   
 ## TODO
-- Re-run analysis using less granular occupation groupings (e.g., 2-digit codes)
+- Re-run analysis using less granular occupation groupings (e.g., 2-digit or sector-level codes)
 - Analyze fertility patterns by marital status (e.g., married vs. divorced fathers)
-- Clean and enrich occupation label mappings
+- Analyze geographic variation in fertility by state (`STATEFIP`)
+- Explore seasonal birth patterns by mother's birth quarter (`BIRTHQTR`)  
+  *(Birth month data is unavailable in ACS/IPUMS)*
+- Clean and standardize occupation label mappings (`OCC2010`) for better display and analysis
+
 
 ## Future Work
 I plan to explore broader social and policy factors potentially affecting fertility, including:
